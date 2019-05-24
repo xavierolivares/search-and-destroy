@@ -20,12 +20,12 @@ describe('Binary Search', () => {
 		expect(binarySearch(test3, 4)).to.equal(false);
 	});
 	it('handles an empty array', () => {
-		expect(binarySearch([], 2).to.equal(false));
+		expect(binarySearch([], 2)).to.equal(false);
 	});
 	it('handles an array of one element', () => {
 		expect(binarySearch([2], 2)).to.equal(true);
 	});
-	
+
 	//(OPTIONAL) WRITE YOUR OWN TESTS HERE. Include >=1 edge case :)
 
 });
